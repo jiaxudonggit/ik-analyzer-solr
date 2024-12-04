@@ -1,5 +1,16 @@
 # ik-analyzer-solr
-ik-analyzer for solr 7.x-8.x
+ik-analyzer for solr 7.x-9.x
+
+### Java 版本
+17
+
+### Maven 版本
+3.9.6
+
+### 打包命令
+```shell
+mvn clean package
+```
 
 <!-- Badges section here. -->
 [![GitHub version](https://img.shields.io/maven-central/v/com.github.magese/ik-analyzer.svg?style=flat-square)](https://search.maven.org/search?q=g:com.github.magese%20AND%20a:ik-analyzer&core=gav)
@@ -37,15 +48,6 @@ ik-analyzer for solr 7.x-8.x
 ## 使用说明
 * jar包下载地址：[![GitHub version](https://img.shields.io/badge/version-8.5.0-519dd9.svg)](https://search.maven.org/remotecontent?filepath=com/github/magese/ik-analyzer/8.5.0/ik-analyzer-8.5.0.jar)
 * 历史版本：[![GitHub version](https://img.shields.io/maven-central/v/com.github.magese/ik-analyzer.svg?style=flat-square)](https://search.maven.org/search?q=g:com.github.magese%20AND%20a:ik-analyzer&core=gav)
-
-    ```xml
-    <!-- Maven仓库地址 -->
-    <dependency>
-        <groupId>com.github.magese</groupId>
-        <artifactId>ik-analyzer</artifactId>
-        <version>8.5.0</version>
-    </dependency>
-    ```
 
 ### Solr-Cloud
 * [Solr-Cloud说明](./README-CLOUD.md)
@@ -105,6 +107,7 @@ ik-analyzer for solr 7.x-8.x
 
 
 ## 更新说明
+- **2024-12-04:** 升级lucene版本为`9.8.0`
 - **2021-12-23:** 升级lucene版本为`8.5.0`
 - **2021-03-22:** 升级lucene版本为`8.4.0`
 - **2020-12-30:**
